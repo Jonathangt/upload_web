@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-jul-2018, 0:08:16
+    Author     : Jonathan
+*/
+
+/*background-attachment: fixed; para que la img se quede fija*/
+body{
+    background-image: url(../../img/ezgif.com-crop.gif);    
+    background-size: 100vw, 100vh;
+    /*para que el fondo no se mueva*/
+    background-attachment: fixed; 
+
+    margin: 0;
+    /*position: absolute;*/
+}
+
+#formulario_ingreso{    
+    width: 420px;
+    /*    float:letf;*/
+    /*para que este centrado*/
+    /*    margin: auto;*/
+    background: rgb(0, 0, 0, 0.2);
+    /*relleno del formulario*/
+    padding: 5px 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 7px;
+
+    position: absolute;
+    top: 0.5%;
+    left: 0.5%;
+    font-family: monospace;
+}/*
+*/
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    /*espaciado de la parte ade abajo del boton*/
+    margin-bottom: 20px;
+}/*
+
+*/a{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}/*
+
+*/input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}/*
+
+*/textarea{
+    /*max y min del text area*/
+    min-height: 100px;
+    max-height: 100px;
+    /*    max-width: 100%;*/
+    resize: none;
+
+}/*
+
+*/#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}/*
+*//*estilo de la manito al boton*/
+#boton:hover{
+    cursor: pointer;
+
+}
+
+#botones_examniar1, #botones_examniar2, #botones_examniar3{
+    color: #fff;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+
+
+.cargas{
+    width: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 20px;
+    /*position: absolute;*/
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 7px;
+    font-family: monospace;
+    margin-top: 15px;
+
+}
+
+
+.encabezado_tabla{
+    font-weight : bold;
+}
+
+
+/*.cargas_descripcion{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+#archivo{
+    width: 400px;
+    float:letf;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+
+
+
+
+*/#boton_dos{
+    width: 150px;
+    background: rgb(0, 0, 0, 0.2);
+    /*     margin: auto;*/
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    position: absolute;
+    top: 2%;
+    right: 0.5%;
+    float: right;
+
+}
+
+#boton_listar{
+    color: black;
+    font:bold;
+}
+
+/*para que sea responsive*/
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
